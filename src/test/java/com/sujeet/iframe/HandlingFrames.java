@@ -21,6 +21,8 @@ public class HandlingFrames {
 	driver.switchTo().defaultContent();
 	driver.switchTo().frame("packageFrame");
 	Thread.sleep(3000);
+	System.out.println("Sujeet Yadav Project");
+	driver.manage().window().maximize();
 	driver.findElement(By.xpath("//ul[@title='Interfaces']/child::li[1]/child::a")).click();
 	System.out.println("sujeet");
 	
